@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>mode-viewerテスト</title>
+    <title>神の復活</title>
     <!-- Import the component -->
     <script type="module"
       src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
@@ -11,16 +11,22 @@
       src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
   </head>
   <body>
+    <h1 style="margin: auto;">GOD's Resurection</h1>
+    <p>Android端末の方は<a href="https://developers.google.com/ar/devices">ARcore対応端末</a>のchromeで開いてください。</p>
+    <p>iOS端末の方は、ios12以降の端末のSafariで開いてください</p>
+    <p>しばらく待つと右下にボタンが出現するので、ボタンをタップし平面に向けて端末をかざしてください。</p>
+    <p>スクリーンショットは自由にTwitter等に上げてもらって構いません。</p>
     <model-viewer
-      src="assets/xmas280.gltf"
-      ios-src="assets/xmas280.usdz"
+      src="assets/xmas280_anim.gltf"
+      ios-src="assets/xmas280_anim.usdz"
       alt="A 3D model"
       background-color="#70BCD1"
       shadow-intensity="0.7"
       camera-controls
       interaction-prompt="auto"
       auto-rotate ar magic-leap
-      style="width: 800px; height: 1000px;"
+      style="width: 100%; height: 600px;"
     ></model-viewer>
+    <p>Made by <a href="https://twitter.com/home">yuhi_dosei</a></p>
   </body>
 </html>
